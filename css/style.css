@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.content {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 23px;
+}
+
+@media screen and (max-width:780px) {
+  .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+}
